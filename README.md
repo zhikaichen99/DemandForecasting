@@ -1,5 +1,5 @@
 # Demand Forecasting
-This repository used to learn about different time series techniques for store-item product forecasting using Kaggle dataset.
+This repository is used to learn about different time series techniques for store-item product forecasting using Kaggle dataset.
 
 ## Business Use Case
 - Demand Forecasting is a field of predictive analytics used to predict customer demands to optimize supply decisions.
