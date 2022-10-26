@@ -8,3 +8,5 @@ This repository used to learn about different time series techniques for store-i
   - Customer wants to purchase a product, however not available. This leads to loss in potential profit and customer dissatisfaction.
   - Too many products are stocked and remain unsold. This is a problem for products with short shelf life.
 - The task is to use historical sales records to estimate future demand.
+
+## Dataset
