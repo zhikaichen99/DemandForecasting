@@ -9,4 +9,18 @@ This repository used to learn about different time series techniques for store-i
   - Too many products are stocked and remain unsold. This is a problem for products with short shelf life.
 - The task is to use historical sales records to estimate future demand.
 
+## Challenges
+- There are a lot of external factors that directly affect the number of purchases:
+  - Seasonality
+  - Weather
+  - Events
+  - Promotions
+  - Weird customer behaviour
+
 ## Dataset
+- Kaggle dataset
+  - sales_train.csv: Daily historical data from January 2013 to October 2015
+  - test.csv: Need to forecast the sales for these shops and products for future.
+  - items.csv: Supplemental information about the items/products
+  - item_categories.csv: Supplemental information about the items categories.
+  - shops.csv: Supplemental information about the shops.
