@@ -26,21 +26,25 @@ This project is used to learn about different time series forecasting techniques
 
 
 ## Challenges
-- There are a lot of external factors that directly affect the number of purchases:
-  - Seasonality
-  - Weather
-  - Events
-  - Promotions
-  - Weird customer behaviour
+There are a lot of external factors that directly affect the number of purchases:
+* Seasonality
+* Weather
+* Events
+* Promotions
+* Weird customer behaviour
 
 ## Dataset
-- Kaggle dataset
-  - train.csv: Daily historical data from January 2013 to October 2015
-  - test.csv: Need to forecast the sales for these shops and products for future.
+Kaggle dataset
+* train.csv: Daily historical data from January 2013 to October 2015
+* test.csv: Need to forecast the sales for these shops and products for future.
 
 ## Visualizations
+Using Streamlit and Plotly to generate visualizations to gain insight on the dataset.
 
-<div style = "width:60px ; height:60px">
 ![alt text](/images/date_store.png?raw=true)
-<div>
+![alt text](/images/sales_by_store.png?raw=true)
+
+
+
+
 
