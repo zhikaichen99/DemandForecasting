@@ -40,6 +40,7 @@ This project is used to learn about different time series forecasting techniques
 
 ## Visualizations
 
+<div style = "width:60px ; height:60px">
 ![alt text](/images/date_store.png?raw=true)
-
+<div>
 
