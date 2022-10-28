@@ -24,8 +24,7 @@ This project is used to learn about different time series forecasting techniques
 * scikit-learn
 * scipy
 
-
-## Challenges
+### Challenges
 There are a lot of external factors that directly affect the number of purchases:
 * Seasonality
 * Weather
@@ -41,8 +40,18 @@ Kaggle dataset
 ## Visualizations
 Using Streamlit and Plotly to generate visualizations to gain insight on the dataset.
 
-![alt text](/images/date_store.png?raw=true)
-![alt text](/images/sales_by_store.png?raw=true)
+## Results
+
+| Method                                | MAE  | MSE  |
+| --------------------------------------|:----:| -----:|
+| Moving Average                        |      |       |
+| SMMA                                  |      |       |
+| ARIMA                                 |      |       |
+| Double Exponential Smoothing          |      |       |
+| Double Smoothing with Damped Trend    |      |       |
+| Triple Additive Exponential Smoothing |      |       |
+
+
 
 
 
