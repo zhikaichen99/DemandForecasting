@@ -40,5 +40,6 @@ This project is used to learn about different time series forecasting techniques
 
 ## Visualizations
 
+![alt text](/images/date_store.png?raw=true)
 
 
