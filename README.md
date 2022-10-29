@@ -42,7 +42,9 @@ Using Streamlit and Plotly to generate visualizations to gain insight on the dat
 
 ## Results
 
-| Method                                | MAE  | MSE  |
+Statistical Forecasting:
+
+| Method                                | MAE  | RMSE  |
 | --------------------------------------|:----:| -----:|
 | Moving Average                        |      |       |
 | SMMA                                  |      |       |
@@ -51,7 +53,17 @@ Using Streamlit and Plotly to generate visualizations to gain insight on the dat
 | Double Smoothing with Damped Trend    |      |       |
 | Triple Additive Exponential Smoothing |      |       |
 
+Machine Learning:
 
+| Method                                | MAE  | RMSE  |
+| --------------------------------------|:----:| -----:|
+| Linear Regression                     |      |       |
+| Random Forest                         |      |       |
+| AdaBoost                              |      |       |
+| CatBoost                              |      |       |
+| XGBoost                               |      |       |
+
+## Takeaways
 
 
 
