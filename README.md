@@ -3,67 +3,18 @@ This project is used to learn about different time series forecasting techniques
 
 #### -- Project Status: [Active]
 
-## Project Intro/Objective 
-- Demand Forecasting is a field of predictive analytics used to predict customer demands to optimize supply decisions.
-- How many products should the company have in stock? How often should they be restocked?
-- Incorrect inventory management can lead to the following problems:
-  - Customer wants to purchase a product, however not available. This leads to loss in potential profit and customer dissatisfaction.
-  - Too many products are stocked and remain unsold. This is a problem for products with short shelf life.
-- The task is to use historical sales records to estimate future demand.
+## Current Methods Implemented:
 
-### Methods Used
-* Statistical Forecasting
-* Machine Learning
-* Data Visualization
-* Predictive Modeling
-
-### Technologies
-* Python
-* Pandas, jupyter
-* Streamlit, plotly
-* scikit-learn
-* scipy
-
-### Challenges
-There are a lot of external factors that directly affect the number of purchases:
-* Seasonality
-* Weather
-* Events
-* Promotions
-* Weird customer behaviour
-
-## Dataset
-Kaggle dataset
-* train.csv: Daily historical data from January 2013 to October 2015
-* test.csv: Need to forecast the sales for these shops and products for future.
-
-## Visualizations
-Using Streamlit and Plotly to generate visualizations to gain insight on the dataset.
-
-## Results
-
-Statistical Forecasting:
-
-| Method                                | MAE  | RMSE  |
-| --------------------------------------|:----:| -----:|
-| Moving Average                        |      |       |
-| SMMA                                  |      |       |
-| ARIMA                                 |      |       |
-| Double Exponential Smoothing          |      |       |
-| Double Smoothing with Damped Trend    |      |       |
-| Triple Additive Exponential Smoothing |      |       |
-
-Machine Learning:
-
-| Method                                | MAE  | RMSE  |
-| --------------------------------------|:----:| -----:|
-| Linear Regression                     |      |       |
-| Random Forest                         |      |       |
-| AdaBoost                              |      |       |
-| CatBoost                              |      |       |
-| XGBoost                               |      |       |
-
-## Takeaways
+* Statistical Methods For Time Series:
+	* Time Series Decomposion using STL and MSTL
+	* Autocorrelation Function (ACF) and Partial Autocorrelation Function (PACF) for feature selection in feature engineering.
+	* LASSO Regression for Feature Selection
+	* De-Trending and De-Seasonalizing Time Series
+* ARIMA and SARIMA Model
+* Exponential Smoothing (Simple, Double, Triple)
+* Facebook's Prophet
+* Machine Learning Models (LightGBM, XGBoost)
+* Feature Engineering for Time Series data (Lag Features, Rolling and Expanding Window Features, Date-Time Features)
 
 
 
