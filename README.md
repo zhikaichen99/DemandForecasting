@@ -3,18 +3,30 @@ This project is used to learn about different time series forecasting techniques
 
 #### -- Project Status: [Active]
 
-## Current Methods Implemented:
+## Description
 
-* Statistical Methods For Time Series:
-	* Time Series Decomposion using STL and MSTL
-	* Autocorrelation Function (ACF) and Partial Autocorrelation Function (PACF) for feature selection in feature engineering.
-	* LASSO Regression for Feature Selection
-	* De-Trending and De-Seasonalizing Time Series
-* ARIMA and SARIMA Model
-* Exponential Smoothing (Simple, Double, Triple)
-* Facebook's Prophet
-* Machine Learning Models (LightGBM, XGBoost)
-* Feature Engineering for Time Series data (Lag Features, Rolling and Expanding Window Features, Date-Time Features)
+This module is designed to go over different techniques used in Time-Series Analysis and Forecasting.
+
+## Methods Implemented
+
+### ARIMA Model
+
+AutoRegressive Integrated Moving Average (ARIMA) model. Implemented using the *statsmodels* library in Python.
+
+### Facebook's Prophet
+
+Facebook's Prophet is an open-source library used for time series forecasting. Facebook's Prophet is available as a Python package.
+
+### Exponential Smoothing
+
+Implement Simple Exponential Smoothing, Double Exponential Smoothing, and Triple Exponential Smoothing.
+
+### Machine Learning Models
+
+Trained a LightGBM Regressor model and performed feature engineering to improve accuracy of model. Feature engineering techniques include: Lage Features, Rolling and Expanding Window Features, Date-Time Features).
+
+
+
 
 
 
